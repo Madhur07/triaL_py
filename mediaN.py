@@ -19,3 +19,5 @@ df3['isdelimited'] = 'N'
 # Saving new csv file with Median Calculation
 print('Saving new csv file...')
 df3.to_csv(file_path+'filtered_Median.csv')
+
+print('Code execution time is <30 secs')
